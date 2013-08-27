@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteFF" parallel="false" >
+	<parameter name="selenium.browsertype" value="firefox" />
+ <parameter name="selenium.host" value="localhost" />
+  <parameter name="selenium.port" value="4444" />
+  <parameter name="selenium.browser" value="firefox" />
+  <parameter name="selenium.url" value="http://demo.opensourcecms.com/wordpress/wp-login.php" />
+   <test name="Test" preserve-order="true" >
+  	<classes>
+		<class name="com.test.wordpress.loginTests">
+        <!-- <methods>
+          <include name="launchSite" />
+          <include name="loginAsAdmin" />
+          <include name="logout" />          
+        </methods> -->
+      </class>
+	</classes>
+  </test>
+</suite>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteIE" duration-ms="11716" started-at="2013-08-27T10:29:52Z" finished-at="2013-08-27T10:30:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11716" started-at="2013-08-27T10:29:52Z" finished-at="2013-08-27T10:30:04Z">
+      <class name="com.test.wordpress.loginTests">
+        <test-method status="PASS" signature="setupBeforeSuite(org.testng.ITestContext)[pri:0, instance:com.test.wordpress.loginTests@2c79a5]" name="setupBeforeSuite" is-config="true" duration-ms="2756" started-at="2013-08-27T15:59:50Z" finished-at="2013-08-27T15:59:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ce5bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeSuite -->
+        <test-method status="PASS" signature="loginGoogle()[pri:0, instance:com.test.wordpress.loginTests@2c79a5]" name="loginGoogle" duration-ms="1406" started-at="2013-08-27T15:59:52Z" finished-at="2013-08-27T15:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGoogle -->
+        <test-method status="PASS" signature="loginRediff()[pri:0, instance:com.test.wordpress.loginTests@2c79a5]" name="loginRediff" duration-ms="1015" started-at="2013-08-27T15:59:54Z" finished-at="2013-08-27T15:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRediff -->
+        <test-method status="PASS" signature="loginYahoo()[pri:0, instance:com.test.wordpress.loginTests@2c79a5]" name="loginYahoo" duration-ms="9282" started-at="2013-08-27T15:59:55Z" finished-at="2013-08-27T16:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginYahoo -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.wordpress.loginTests@2c79a5]" name="closeBrowser" is-config="true" duration-ms="1514" started-at="2013-08-27T16:00:04Z" finished-at="2013-08-27T16:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.test.wordpress.loginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- SuiteIE -->
+</testng-results>

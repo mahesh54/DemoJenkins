@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [SuiteCR]">
+  <parameter name="selenium.url" value="http://demo.opensourcecms.com/wordpress/wp-login.php"/>
+  <parameter name="selenium.webdriver.chrome.driver" value="E:/Drivers/chromedriver.exe"/>
+  <parameter name="selenium.browser" value="chrome"/>
+  <parameter name="selenium.browsertype" value="chrome"/>
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.test.wordpress.wp_login_logoutTest">
+        <methods>
+          <include name="setupBeforeSuite"/>
+          <include name="launchSiteTest"/>
+          <include name="setupAfterSuite"/>
+        </methods>
+      </class> <!-- com.test.wordpress.wp_login_logoutTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SuiteCR] -->

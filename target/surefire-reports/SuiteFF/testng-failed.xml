@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [SuiteFF]">
+  <parameter name="selenium.url" value="http://demo.opensourcecms.com/wordpress/wp-login.php"/>
+  <parameter name="selenium.browser" value="firefox"/>
+  <parameter name="selenium.browsertype" value="firefox"/>
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.test.wordpress.loginTests">
+        <methods>
+          <include name="setupBeforeSuite"/>
+          <include name="loginYahoo"/>
+        </methods>
+      </class> <!-- com.test.wordpress.loginTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SuiteFF] -->
