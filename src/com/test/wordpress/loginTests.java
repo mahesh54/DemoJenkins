@@ -19,7 +19,6 @@ public class loginTests {
 	@BeforeSuite(alwaysRun = true)
 	public void setupBeforeSuite(ITestContext context) {
 		
-		
 		try{
 			String seleniumHost = context.getCurrentXmlTest().getParameter("selenium.host");
 			int seleniumPort = Integer.parseInt(context.getCurrentXmlTest().getParameter("selenium.port"));
