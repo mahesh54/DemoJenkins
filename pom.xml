@@ -18,10 +18,10 @@
         <version>2.14.1</version>
         <configuration>
           <suiteXmlFiles>
-            <!-- <suiteXmlFile>firefoxtestng.xml</suiteXmlFile> -->
+            <suiteXmlFile>firefoxtestng.xml</suiteXmlFile>
             <!-- <suiteXmlFile>chrometestng.xml</suiteXmlFile> -->
             
-            <suiteXmlFile>internetexplorertestng.xml</suiteXmlFile>
+            <!-- <suiteXmlFile>internetexplorertestng.xml</suiteXmlFile> -->
           </suiteXmlFiles>
         </configuration>
       </plugin>
