@@ -10,6 +10,7 @@
    <test name="Test" preserve-order="true" >
   	<classes>
 		<class name="com.test.wordpress.loginTests">
+		
         <!-- <methods>
           <include name="launchSite" />
           <include name="loginAsAdmin" />
