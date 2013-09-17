@@ -11,11 +11,11 @@
   	<classes>
 		<class name="com.test.wordpress.loginTests">
 		
-        <!-- <methods>
+        <methods>
           <include name="launchSite" />
           <include name="loginAsAdmin" />
           <include name="logout" />          
-        </methods> -->
+        </methods>
       </class>
 	</classes>
   </test>
