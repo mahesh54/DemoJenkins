@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [SuiteIE]">
+<suite name="Failed suite [SuiteFF]">
   <parameter name="selenium.url" value="http://demo.opensourcecms.com/wordpress/wp-login.php"/>
-  <parameter name="selenium.browser" value="internet explorer"/>
-  <parameter name="selenium.webdriver.ie.driver" value="E:/Drivers/IEDriverServer.exe"/>
-  <parameter name="selenium.browsertype" value="internetexplorer"/>
-  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.browser" value="firefox"/>
+  <parameter name="selenium.browsertype" value="firefox"/>
+  <parameter name="selenium.port" value="4441"/>
   <parameter name="selenium.host" value="localhost"/>
   <test name="Test(failed)">
     <classes>
@@ -18,4 +17,4 @@
       </class> <!-- com.test.wordpress.loginTests -->
     </classes>
   </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [SuiteIE] -->
+</suite> <!-- Failed suite [SuiteFF] -->

@@ -4,17 +4,17 @@
   <parameter name="selenium.url" value="http://demo.opensourcecms.com/wordpress/wp-login.php"/>
   <parameter name="selenium.browser" value="firefox"/>
   <parameter name="selenium.browsertype" value="firefox"/>
-  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.port" value="4441"/>
   <parameter name="selenium.host" value="localhost"/>
   <test name="Test(failed)">
     <classes>
-      <class name="com.test.wordpress.wp_login_logoutTest">
+      <class name="com.test.wordpress.loginTests">
         <methods>
-          <include name="logoutTest"/>
           <include name="setupBeforeSuite"/>
-          <include name="setupAfterSuite"/>
+          <include name="closeBrowser"/>
+          <include name="loginYahoo"/>
         </methods>
-      </class> <!-- com.test.wordpress.wp_login_logoutTest -->
+      </class> <!-- com.test.wordpress.loginTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [SuiteFF] -->
