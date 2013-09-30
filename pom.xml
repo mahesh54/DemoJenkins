@@ -21,6 +21,7 @@
             <suiteXmlFile>firefoxtestng.xml</suiteXmlFile>
             <!-- <suiteXmlFile>chrometestng.xml</suiteXmlFile> -->
             
+            
             <!-- <suiteXmlFile>internetexplorertestng.xml</suiteXmlFile> -->
           </suiteXmlFiles>
         </configuration>
