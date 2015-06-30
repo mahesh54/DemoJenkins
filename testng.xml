@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="My suite">
+<suite name="My test suite ">
 	<suite-files>
 		<!-- <suite-file path="chrometestng.xml" /> -->
 		<suite-file path="firefoxtestng.xml" />
